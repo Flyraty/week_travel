@@ -14,7 +14,7 @@ timezone: Asia/shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://timemachine.icu
+url: https://timemachine.icu/weekly_travel
 root: /
 # permalink: :year/:month/:day/:title/
 permalink: posts/:abbrlink/
@@ -147,6 +147,6 @@ feed:
 
 baidu_url_submit:
   count: 10 ## 比如3，代表提交最新的三个链接
-  host: https://timemachine.icu ## 在百度站长平台中注册的域名
+  host: https://timemachine.icu/weekly_travel ## 在百度站长平台中注册的域名
   token: U98JzdtOlWEMfwa3 ## 请注意这是您的秘钥， 请不要发布在公众仓库里!
   path: baidu_urls.txt ## 文本文档的地址， 新链接会保存在此文本文档里
