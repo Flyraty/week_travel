@@ -16,14 +16,14 @@ subtitle:
   showCursor: true # 是否显示光标
 
 # 网站图标和侧边栏logo
-favicon: /favicon.ico
-logo: /images/ayer-side.svg
+favicon: /weekly_travel/favicon.ico
+logo: /weekly_travel/images/ayer-side.svg
 
 # 封面配置
 # enable-是否启用封面；path-封面背景图；logo-封面logo
 cover:
   enable: true
-  path: /images/cover1.jpg # /source/images目录下附送多张美图，可更换
+  path: /weekly_travel/images/cover1.jpg # /source/images目录下附送多张美图，可更换
   logo: false #/images/ayer.svg，如果不要直接设置成false
 
 # 页面顶部进度条
@@ -75,7 +75,7 @@ word_count:
 # 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
 reward_type: 0
 # 打赏wording
-reward_wording: "请我喝杯咖啡吧~"
+reward_wording: ""
 # 支付宝二维码图片地址，跟你设置logo的方式一样。比如：/images/alipay.jpg
 alipay: 
 # 微信二维码图片地址
@@ -83,7 +83,7 @@ weixin:
 
 # 版权声明
 # 版权声明type设定：0-关闭版权声明； 1-文章对应的md文件里有copyright: true属性，才有版权声明； 2-所有文章均有版权声明
-copyright_type: 2
+copyright_type: 1
 
 # 是否启用搜索
 # 需要安装hexo-generator-searchdb(https://github.com/theme-next/hexo-generator-searchdb)
@@ -91,7 +91,7 @@ search: true
 
 # RSS订阅(先安装hexo-generator-feed插件，再去博客根目录config进行配置)
 # 不想显示可以直接留空
-rss: /atom.xml
+rss: /weekly_travel/atom.xml
 
 # 是否启用黑夜模式开关
 darkmode: true
@@ -102,7 +102,7 @@ canvas_bg: 0
 # 自定义鼠标样式，直接替换/images/mouse.cur文件
 mouse:
   enable: false
-  path: /images/mouse.cur
+  path: /weekly_travel/images/mouse.cur
 
 # 鼠标点击效果：0-关闭，1-爱心，2-爆炸烟花，3-粒子烟花
 click_effect: 0
@@ -120,7 +120,7 @@ github:
 
 # 网易云音乐插件
 music:
-  enable: true
+  enable: false
   # 播放器尺寸类型(1：小尺寸、2：大尺寸)
   type: 1
   id: 1296106533 # 网易云分享的音乐ID(更换音乐请更改此配置项)
@@ -167,7 +167,7 @@ icp:
 # 公安备案信息尾部显示
 gongan:
   enable: false
-  img: /images/beian.png #公安备案图片
+  img: /weekly_travel/images/beian.png #公安备案图片
   url: "" #公安备案链接
   text: "" #公安备案信息
 
@@ -175,10 +175,10 @@ gongan:
 friends_link:
   GitHub:
     url: https://github.com/Flyraty
-    img: /images/github.png
+    img: /weekly_travel/images/github.png
   Hexo官网:
     url: https://hexo.io
-    img: /images/hexo.png
+    img: /weekly_travel/images/hexo.png
 
 # 评论：1、Valine(推荐)；2、Gitalk；3、Twikoo; 4.MiniValine
 

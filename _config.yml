@@ -15,7 +15,7 @@ timezone: Asia/shanghai
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://timemachine.icu/weekly_travel
-root: /
+root: /weekly_travel
 # permalink: :year/:month/:day/:title/
 permalink: posts/:abbrlink/
 permalink_defaults:
